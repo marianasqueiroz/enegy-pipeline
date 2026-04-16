@@ -1,4 +1,4 @@
-# Global Energy Mix & GHG Emissions (2000–2023)
+# Global Energy Mix & GHG Emissions (2002–2023)
 
 > An end-to-end batch data pipeline built for the Data Engineering Zoomcamp 2026, analyzing global energy consumption patterns and greenhouse gas emissions across countries and decades.
 
@@ -13,7 +13,7 @@ Understanding how countries produce and consume energy, and how these patterns a
 - Designing cleaner energy infrastructure and processes
 
 
-This project builds an automated data pipeline based on the [Our World in Data – Energy Dataset](https://www.kaggle.com/datasets/bhavikjikadara/global-energy-electricity-and-emissions-data?utm_source=chatgpt.com>), which consolidates historical energy indicators for 200+ countries from 1900 to 2023. The pipeline answers two core questions:
+This project builds an automated data pipeline based on the [Our World in Data – Energy Dataset](https://www.kaggle.com/datasets/bhavikjikadara/global-energy-electricity-and-emissions-data?utm_source=chatgpt.com>), which consolidates historical energy indicators for 200+ countries from 2002 to 2023. The pipeline answers two core questions:
 
 1. **How have greenhouse gas emissions evolved over time, by country?**
 2. **How does each country's renewable energy share compare to its fossil fuel dependency?**
