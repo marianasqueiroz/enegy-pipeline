@@ -55,6 +55,8 @@ Our World in Data (GitHub)
    └── Tile 2: Renewables vs Fossil fuel consumption ( mart_renewables_vs_fossil)
 ```
 
+<img width="611" height="552" alt="Pipeline" src="https://github.com/user-attachments/assets/86383767-63be-4139-96ff-d91fb5485cb5" />
+
 ---
 
 ## Technologies
