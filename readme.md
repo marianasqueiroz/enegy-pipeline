@@ -142,6 +142,8 @@ Built with **Looker Studio**, connected directly to BigQuery. The dashboard incl
 -  Horizontal bar chart — Carbon intensity ranking by country
 - Scatter plot — Fossil fuel consumption vs GHG emissions (correlation view)
 
+[Image Looker.pdf](https://github.com/user-attachments/files/26788626/Image.Looker.pdf)
+
 ---
 
 ## Reproducibility
