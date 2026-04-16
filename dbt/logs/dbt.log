@@ -1,0 +1,43 @@
+[0m10:34:48.263621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e2bfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c0b160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c0ad10>]}
+
+
+============================== 10:34:48.266620 | 8f81a470-b864-4117-af52-18f9686c5ab9 ==============================
+[0m10:34:48.266620 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:34:48.266970 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/marianasimoes/.dbt', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'invocation_command': 'dbt init energy_transform', 'use_colors': 'True', 'partial_parse': 'True', 'static_parser': 'True', 'introspect': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'version_check': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_path': 'logs', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'no_print': 'None', 'empty': 'None', 'debug': 'False', 'log_cache_events': 'False', 'target_path': 'None'}
+[0m10:34:48.276049 [info ] [MainThread]: Creating dbt configuration folder at /Users/marianasimoes/.dbt
+[0m10:34:48.277181 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:34:48.282442 [info ] [MainThread]: 
+Your new dbt project "energy_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:34:48.282769 [info ] [MainThread]: Setting up your profile.
+[0m10:35:51.962134 [info ] [MainThread]: Profile energy_transform written to /Users/marianasimoes/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:35:52.038908 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 63.825336, "process_in_blocks": "0", "process_kernel_time": 0.274177, "process_mem_max_rss": "187367424", "process_out_blocks": "0", "process_user_time": 1.146027}
+[0m10:35:52.041600 [debug] [MainThread]: Command `dbt init` succeeded at 10:35:52.041390 after 63.83 seconds
+[0m10:35:52.042582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e2bfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1305166b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c09690>]}
+[0m10:35:52.043444 [debug] [MainThread]: Flushing usage events
+[0m10:35:52.721440 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:39:16.606312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101d40d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c131c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c12d70>]}
+
+
+============================== 10:39:16.609152 | 543f755c-402e-40f1-9d2c-8e584a32c5a5 ==============================
+[0m10:39:16.609152 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:39:16.609497 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'profiles_dir': '/Users/marianasimoes/.dbt', 'use_colors': 'True', 'partial_parse': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'printer_width': '80', 'invocation_command': 'dbt init energy_transform', 'static_parser': 'True', 'write_json': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'quiet': 'False', 'version_check': 'True', 'warn_error': 'None', 'no_print': 'None', 'use_experimental_parser': 'False', 'introspect': 'True'}
+[0m10:39:16.619218 [info ] [MainThread]: A project called energy_transform already exists here.
+[0m10:39:16.621165 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.059137, "process_in_blocks": "0", "process_kernel_time": 0.128668, "process_mem_max_rss": "100614144", "process_out_blocks": "0", "process_user_time": 0.723328}
+[0m10:39:16.621463 [debug] [MainThread]: Command `dbt init` succeeded at 10:39:16.621410 after 0.06 seconds
+[0m10:39:16.621695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101d40d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c12cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111c12320>]}
+[0m10:39:16.621928 [debug] [MainThread]: Flushing usage events
+[0m10:39:17.261555 [debug] [MainThread]: An error was encountered while trying to flush usage events

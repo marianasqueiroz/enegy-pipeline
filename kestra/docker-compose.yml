@@ -1,0 +1,27 @@
+services:
+  kestra:
+    image: kestra/kestra:latest
+    container_name: kestra
+    command: server standalone
+    volumes:
+      - ./gcp-key.json:/app/gcp-key.json
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      KESTRA_CONFIGURATION: |
+        kestra:
+          encryption:
+            secretKey: "sAVWjDypesjvWzOkYjNRrkg5IZr1OGUl"
+          repository:
+            type: h2
+          queue:
+            type: memory
+          storage:
+            type: local
+            local:
+              base-path: /tmp/kestra/storage
+          server:
+            basicAuth:
+              enabled: false

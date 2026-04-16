@@ -1,0 +1,25 @@
+# Kestra secrets
+kestra/gcp-key.json
+kestra/.env
+
+# Terraform state (contém dados sensíveis e é gerado automaticamente)
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Dados locais (arquivos grandes, não precisam ir pro GitHub)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Spark temporários
+spark/*.jar
+# (se preferir não versionar os jars, senão retire essa linha)
+
+# Sistema operacional
+.DS_Store

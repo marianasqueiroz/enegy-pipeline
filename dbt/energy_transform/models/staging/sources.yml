@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: energy_data
+    database: propane-surfer-485218-m5
+    schema: energy_data
+    tables:
+      - name: energy_staging
