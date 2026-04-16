@@ -1,6 +1,7 @@
 # Kestra secrets
 kestra/gcp-key.json
 kestra/.env
+ketsra/flow.yml
 
 # Terraform state (contém dados sensíveis e é gerado automaticamente)
 terraform/.terraform/
